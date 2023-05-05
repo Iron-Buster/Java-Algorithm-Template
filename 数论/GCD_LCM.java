@@ -1,4 +1,4 @@
-package math;
+package 数论;
 
 public class GCD_LCM {
 

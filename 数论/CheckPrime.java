@@ -1,4 +1,4 @@
-package math;
+package 数论;
 
 public class CheckPrime {
 
@@ -7,7 +7,7 @@ public class CheckPrime {
     //=====================================================
 
 
-    static boolean check(int x) {
+    private boolean check(int x) {
         if (x <= 1) return false;
         for (int i = 2; i * i <= x; i++) {
             if (x % i == 0) return false;
@@ -17,8 +17,9 @@ public class CheckPrime {
 
     public static void main(String[] args) {
         int n = 26;
+        var cp = new CheckPrime();
         for (int i = 2; i <= n; i++) {
-            System.out.println(i + " " + check(i));
+            System.out.println(i + " " + cp.check(i));
         }
     }
 }
