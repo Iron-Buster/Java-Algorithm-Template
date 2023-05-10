@@ -442,6 +442,12 @@ class Main {
     }
 }
 ```
+5. 模运算等式
+```text
+(a + b) mod m = ((a mod m) + (b % m)) mod m
+(a * b) mod m = ((a mod m) * (b % m)) mod m
+ 
+```
 
 ### RMQ问题模板
 1. 单点修改线段树
