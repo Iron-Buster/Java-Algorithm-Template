@@ -1,5 +1,5 @@
 # Java-Algorithm-Template
-
+暂停更新了，全面的模板放在另外一个仓库了。
 `一个真正的鳗` `JDK11` 😨😨😨
 
 
